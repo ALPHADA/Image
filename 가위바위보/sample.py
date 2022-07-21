@@ -22,29 +22,11 @@ def change2(x): # 컴퓨터 사진 교체
 
 def game(x,y):
     # 사용자가 가위를 냈을 때
-    if ___________:
-        if __________:
-            _______
-        elif __________:
-            _______
-        else:
-            _______
+    pass
     # 사용자가 바위를 냈을 때
-    elif ___________:
-        if __________:
-            draw() # 비김
-        elif __________:
-            _______
-        else:
-            _______
+   
     # 사용자가 보를 냈을 때
-    else:
-        if __________:
-            _______
-        elif __________:
-            _______
-        else:
-            _______
+    
 
 def win(): # 사용자가 가위바위보를 이겼을 경우
     label2.configure(text=">>>>>")
@@ -65,7 +47,7 @@ font2 = ("굴림체",20,"bold") # 폰트 설정
 photo = {list[0]:"가위.png", list[1]:_______, _______:________}
 
 # 파일 경로를 설정하여 사진을 불러옴
-photo1 = PhotoImage(f                ile=photo[list[2]])
+photo1 = PhotoImage(file=photo[list[2]])
 photo2 = PhotoImage(file=photo[_______])
 
 label1 = Label(win, image=photo1)
